@@ -1,0 +1,90 @@
+/* @import url(https://fonts.googleapis.com/css?family=Lato&display=swap); */
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+    color: #222;
+    background: #fff;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header .container {
+    text-align: right;
+    margin-bottom: 130px;
+}
+
+.header-menu {
+    
+}
+
+.header-menu a {
+    margin-left: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.search-form {
+    width: 584px;
+    -height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    -margin-bottom: 18px;
+    -padding: 0 16px;
+    -box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.search-form:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-form svg {    
+    height: 20px;
+    width: 20px;
+    -margin-top: 12px;
+    -margin-left: -540px;
+    display: block;
+}
+
+.search-form input[type="text"] {
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+    outline: none;
+    width: 500px;
+    height: 30px;
+    margin: 0;
+}
+
+input[type="submit"] {
+    height: 36px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    margin: 11px 4px;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+input[type="submit"]:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
