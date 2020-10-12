@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
     <title>Google Search</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="images-style.css">
+    <meta charset="utf-8">
 </head>
 <body>
     <header class="header-menu">
         <nav class="header-menu">
-            <a href="image-search.html">Image Search</a>
+            <a href="/">Google Search</a>
             <a href="#">Advanced Search</a>
         </nav>
     </header>
-
     <section class="logo">
-        <img src="image/google-logo.png"
-            alt="Google Search">
+        <img src="image/google-logo.png" alt="Google Images Search" title="Google Images">
+        <div class="logo-subtext"><span>images</span></div>
     </section>
     <section class="form">
         <form action="https://google.com/search">
@@ -25,14 +25,14 @@
                     </span>
                     <div class="search-box">
                         <input type="text" name="q" title="Search">
+                        <input type="hidden" name="tbm" value="isch">
                     </div>
                 </div>
             </div>
             <div class="button-container">
                 <input class="button" type="submit" value="Google Search">
-                <input class="button" type="submit" value="I’m Feeling Lucky">
             </div>
         </form>
-    </section> 
+    </section>
 </body>
 </html>
